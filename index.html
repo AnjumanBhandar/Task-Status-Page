@@ -32,6 +32,14 @@
             font-size: 1.2em;
             color: #555;
         }
+        .instructions {
+            font-size: 1em;
+            color: #777;
+            margin-top: 20px;
+        }
+        .instructions b {
+            color: #333;
+        }
         .start-btn {
             display: inline-block;
             margin-top: 20px;
@@ -53,9 +61,9 @@
     <div class="container">
         <h1>Task Status Information</h1>
         <p>Your task is not started. Please start it first.</p>
-        <p>The Pause button will work when the Task status is Start...
-            also if the pause button is yellow then its enabled and
-            when its Grey it is disabled. If You will click when the button is disabled this screen pops up</p>
+        <div class="instructions">
+            <p><b>Note:</b> The Pause button will work when the Task status is <b>Start</b>. If the pause button is <b>yellow</b>, it is enabled. If it is <b>grey</b>, it is disabled. Clicking on the button when it is disabled will display this screen.</p>
+        </div>
     </div>
 </body>
 </html>
